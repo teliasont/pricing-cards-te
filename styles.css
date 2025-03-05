@@ -17,10 +17,6 @@
     margin-bottom: 40px;
   }
   
-  h1 {
-    font-size: 2.5em;
-  }
-  
   .pricing-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -44,8 +40,8 @@
     max-width: 400px; /* Prevent cards from becoming too wide on large screens */
   }
   
-  h2 {
-    font-family: "Jersey 10";
+  h1 ,h2 {
+    font-family: "Jersey 10", Courier;
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -124,34 +120,6 @@
   .buy-button:hover {
     box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.25) inset;
   }
-  
-  /*
-  // Not used in this project, but may be useful to have on hand:
-  Copy
-  .price-card:nth-child(1) .card-title {
-    background-color: #3498db; /* Blue for Basic 
-  }
-  
-  .price-card:nth-child(2) .card-title {
-    background-color: #9b59b6; /* Purple for Pro 
-  }
-  
-  .price-card:nth-child(3) .card-title {
-    background-color: #e74c3c; /* Red for Enterprise 
-  }
-  
-  .price-card:nth-child(1) {
-    background-color: #ebf5fb; /* Light blue 
-  }
-  
-  .price-card:nth-child(2) {
-    background-color: #f4ecf7; /* Light purple 
-  }
-  
-  .price-card:nth-child(3) {
-    background-color: #fae5e3; /* Light red 
-  }
-  */
   
   /* Mobile View (default, up to 767px) */
   /* Already set width: 100% in the base .price-card style */
